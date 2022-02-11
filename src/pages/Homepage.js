@@ -1,17 +1,12 @@
 import Card from "../components/Card";
 import Description from "../components/Description";
 
-//Images
-import SwamiJiBaburi from '../assets/swami-ji-baburi.JPG';
-import SwamiJiPamhati from '../assets/swami-ji-pamhati.JPG';
-import SwamiJiByuri from '../assets/swami-ji-byuri.JPG';
-
 const HomePage = (props) => {
     const { handleShowFullDescription, showFullDescription } = props;
     const cards = [
         {
             image: {
-                src: SwamiJiBaburi,
+                src: "https://guru-images-jnvsumit.s3.ap-south-1.amazonaws.com/swami-ji-baburi.JPG",
                 alt: "श्री श्री १००८ स्वामी जी महाराज 'परमहंस'"
             },
             title: "श्री श्री १००८ स्वामी जी महाराज 'परमहंस'",
@@ -22,7 +17,7 @@ const HomePage = (props) => {
         },
         {
             image: {
-                src: SwamiJiPamhati,
+                src: "https://guru-images-jnvsumit.s3.ap-south-1.amazonaws.com/swami-ji-pamhati.JPG",
                 alt: "श्री श्री १००८ स्वामी कबीर जी महाराज 'परमहंस'"
             },
             title: "श्री श्री १००८ स्वामी कबीर जी महाराज 'परमहंस'",
@@ -33,7 +28,7 @@ const HomePage = (props) => {
         },
         {
             image: {
-                src: SwamiJiByuri,
+                src: "https://guru-images-jnvsumit.s3.ap-south-1.amazonaws.com/swami-ji-byuri.JPG",
                 alt: "श्री श्री १०८ स्वामी नामधनी जी महाराज 'परमहंस'"
             },
             title: "श्री श्री १०८ स्वामी नामधनी जी महाराज 'परमहंस'",
