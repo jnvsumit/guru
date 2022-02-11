@@ -10,7 +10,7 @@ const HomePage = (props) => {
                 alt: "श्री श्री १००८ स्वामी जी महाराज 'परमहंस'"
             },
             title: "श्री श्री १००८ स्वामी जी महाराज 'परमहंस'",
-            shortDescription: "this is a desc",
+            shortDescription: "",
             longDescription: "",
             order: 1,
             id: 1
@@ -55,7 +55,7 @@ const HomePage = (props) => {
                 alt: "श्री श्री १०८ स्वामी नामधनी जी महाराज 'परमहंस'"
             },
             title: "श्री श्री १०८ स्वामी नामधनी जी महाराज 'परमहंस'",
-            shortDescription: "this is a desc",
+            shortDescription: "",
             longDescription: "",
             order: 1,
             id: 3
